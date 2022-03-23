@@ -11,7 +11,8 @@
   --bg-color: #e0ddca;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #56bbff;
+  --accent-color-pink: #e00b87;
+  --accent-color-green: #56eb2e;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -22,7 +23,7 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: #ffffff;
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -62,14 +63,14 @@ header .container {
   display: inline-block;
   padding: 1rem 2rem;
   background: var(--btn-bg-color);
-  color: var(--accent-color);
+  color: var(--accent-color-pink);
   font-family: var(--font-secondary);
   font-style: italic;
   font-weight: bold;
   font-size: 1rem;
   text-transform: capitalize;
   transition: all 0.3s ease;
-  box-shadow: 4px 4px 0 0 var(--accent-color);
+  box-shadow: 4px 4px 0 0 var(--accent-color-green);
   cursor: pointer;
   position: relative;
   text-decoration: none;
@@ -115,8 +116,8 @@ section {
   height: auto;
 }
 .countdown .clock-item .count-number {
-  background: var(--accent-color);
-  color: var(--font-color);
+  background: var(--btn-bg-color);
+  color: var(--accent-color-pink);
   font-size: 2rem;
   font-weight: 700;
   font-family: var(--font-secondary);
@@ -128,10 +129,10 @@ section {
   border-radius: 4px 4px 0 0;
 }
 .countdown .clock-item .count-text {
-  background: var(--btn-bg-color);
+  background: var(--accent-color-green/*--btn-bg-color*/);
   font-family: var(--font-secondary);
   font-size: 1.1rem;
-  color: var(--bg-color);
+  color: var(--accent-color-pink/*--bg-color*/);
   padding: 0.5rem 0.7rem;
   display: inline-block;
   width: 100%;
@@ -141,10 +142,10 @@ section {
 }
 
 .countdown h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-color-pink/*--accent-color*/);
   font-style: italic;
   margin: 2rem 0;
-  font-size: 3.5rem;
+  font-size: 4rem;
   text-align: center;
 }
 
