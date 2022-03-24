@@ -183,7 +183,7 @@ section {
 }
 
 .about {
-  font-size: 1.8rem;
+  font-size: 10rem;
   text-shadow: 2px 2px 0 var(--accent-color-pink);
   text-align: center;
   margin-top: 100px;
