@@ -56,34 +56,25 @@ header .container {
   gap: 2rem;
   align-items: center;
 }
+.meta-mask {
+  align-items: center;
+}
 
 /* BUTTONS */
 
-.btn {
-  display: inline-block;
-  padding: 1rem 2rem;
-  background: var(--btn-bg-color);
-  color: var(--accent-color-pink);
+.btn-primary {
+  background-color: white;
   font-family: var(--font-secondary);
-  font-style: italic;
-  font-weight: bold;
-  font-size: 1rem;
-  text-transform: capitalize;
-  transition: all 0.3s ease;
-  box-shadow: 4px 4px 0 0 var(--accent-color-green);
-  cursor: pointer;
-  position: relative;
-  text-decoration: none;
-  outline: none;
-}
-.btn:hover {
-  box-shadow: none;
+  color: var(--accent-color-pink);
+  border-radius: 20px;
+  text-shadow: #000;
+  height:40%;
+  box-shadow: 10px, 10px, #56eb2e;
+  padding: 10px
 }
 
-.wallet-btn {
-  border-radius: 5rem;
-  margin-left: 2rem;
-  border-color: transparent;
+.btn:hover {
+  box-shadow: none;
 }
 
 .hero-btn {
@@ -156,6 +147,7 @@ section {
   text-align: center;
 }
 
+
 /* OWNER STYLES */
 
 .owner-status {
@@ -195,4 +187,25 @@ section {
   margin-top: 20px;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+.socials {
+  display: block;
+  margin: auto;
+  height: 40px;
+  width: 40px;
+}
+
+.instagram{
+  display: block;
+  margin: auto;
+  height: 32px;
+  width: 32px;
 }
